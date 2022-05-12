@@ -1,0 +1,34 @@
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input{
+  margin: 2px;
+}
+html,body {
+  font-family: 'Open Sans', serif;
+  font-size: 14px;
+  font-weight: 300; 
+}
+.hero.is-success {
+  background: #752969ec;
+}
+.hero .nav, .hero.is-success .nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+p {
+  font-weight: 700;
+}
+.box {
+  background-color: #712164;
+}
+
+button{
+  margin: 2px;
+}
